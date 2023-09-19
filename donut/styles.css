@@ -1,0 +1,41 @@
+/* styles.css */
+.container {
+    position: relative;
+    width: 200px;
+    /* Set the width and height for the container */
+    height: 200px;
+    margin: 20px auto;
+    /* Center the container horizontally */
+}
+
+.hollow-circle {
+    width: 100%;
+    /* Use 100% width and height to fill the container */
+    height: 100%;
+    border-radius: 50%;
+    /* Create a circle by setting border-radius to 50% */
+    box-sizing: border-box;
+    /* Include the border within the width and height */
+    position: absolute;
+    /* Position circles relative to the container */
+    top: 0;
+    left: 0;
+}
+
+.base-circle {
+    border: 20px solid #1f4e6f;
+    /* 5px border for the base circle */
+    /* z-index: 0; */
+    /* Display the base circle at the bottom (highest z-index) */
+}
+
+
+
+.top-circle {
+    border: 20px solid #76a2ce;
+    /* 20px border for the top circle */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 50%, 0% 100%);
+    /* Clip to remove 1/4th of the top circle */
+    /* z-index: 3; */
+    /* Display the top circle on top (lowest z-index) */
+}

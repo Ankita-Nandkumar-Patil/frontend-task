@@ -1,0 +1,181 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.row {
+    display: flex;
+}
+.chart-container {
+    background-color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    /* Distribute containers equally in one row */
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.inner-container {
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.bar-chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.bar {
+    width: 30px;
+    background-color: #0077cc;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    transition: height 0.3s ease-in-out;
+}
+
+.bar-value {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #0077cc;
+}
+
+.bar-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+
+/* styles.css */
+.small-square {
+    width: 20px;
+    /* Adjust the width to make it small */
+    height: 20px;
+    /* Adjust the height to make it small */
+    background-color: #003366;
+    /* Choose the desired background color */
+}
+
+.small-square2 {
+    width: 20px;
+    /* Adjust the width to make it small */
+    height: 20px;
+    /* Adjust the height to make it small */
+    background-color: #0077cc;
+    /* Choose the desired background color */
+}
+
+.vertical-chart {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 300px;
+    /* Set a fixed height for the chart container */
+}
+
+.vertical-column-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    margin-bottom: 10px;
+    /* Add some space between groups */
+}
+
+.vertical-column-men,
+.vertical-column-women {
+    width: 30px;
+    /* border-radius: 5px 5px 0 0; */
+    /* Round the top corners */
+    position: relative;
+    transition: height 0.3s ease-in-out;
+}
+
+
+.vertical-column-men {
+    background-color: #0077cc;
+    /* Blue for men */
+}
+
+.vertical-column-women {
+    background-color: #003366;
+    /* Dark blue for women */
+}
+
+.vertical-column-label {
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+    /* text-align: center;
+    white-space: nowrap; */
+    /* Prevent label from breaking into multiple lines */
+}
+
+.measure{
+    position: absolute;
+    display: flex;
+}
+
+
+
+/* styles.css */
+.chart {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.bar {
+    height: 30px;
+    margin: 5px 0;
+    background-color: #0077cc;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+}
